@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List | EA</h1> 
+    <div class="content">
+        <div class="content--add-item">
+            <input type="text" id="input-new-task" placeholder="Digite uma nova task">
+            <button onclick="newTask()" id="btn-new-task" title="Click para adicionar uma nova task">
+                +
+            </button>
+        </div>
+        <div class="content--body">
+            <ol id="to-do-list">
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
